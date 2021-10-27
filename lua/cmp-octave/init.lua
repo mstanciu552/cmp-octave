@@ -36,4 +36,4 @@ function source:execute(completion_item, callback)
 	callback(completion_item)
 end
 
-require("cmp").register_source("cmp_octave", source.new())
+return source
